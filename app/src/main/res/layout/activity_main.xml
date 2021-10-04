@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/main_activity_bacground"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/header_main_activityxml"
+        android:layout_marginBottom="90dp" />
+
+    <Button
+            android:id="@+id/ButtonMain1"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Boxing Round timer"
+            android:onClick="ActivityBoxingRound"
+        android:layout_marginBottom="65dp"
+        android:textColor="@android:color/white"
+            />
+    <Button
+        android:id="@+id/ButtonMain2"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Create preset"
+        android:onClick="ActivityCreatePreset"
+        android:layout_marginBottom="65dp"
+        android:textColor="@android:color/white"
+        />
+
+    <Button
+        android:id="@+id/ButtonMain3"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:onClick="ActivityEditPreset"
+        android:text="Select Preset"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
